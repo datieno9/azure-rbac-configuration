@@ -60,7 +60,7 @@ azure-rbac-configuration/
 
 ---
 
-## What This Üroject Does
+## What This Project Does
 
 - Automates **Azure RBAC role assignments** using Bicep
 - Demonstrates use of **Infrastructure as Code (IaC)** for secure Azure resource access
