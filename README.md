@@ -27,7 +27,7 @@ Manually assigning roles in the Azure Portal is error-prone and not scalable. Th
 - **Infrastructure as Code (IaC) for access control**  
 - **Declarative IAM policy management**
 
-##Who is this for
+## Who is this for
 This is ideal for:
 - **Cloud Security Engineers** learning automation
 - **DevSecOps professionals** enforcing policy-as-code
@@ -37,4 +37,17 @@ This is ideal for:
 
 ![RBAC Diagram](./images/rbac-diagram.png)
 
-##Project Structure
+---
+
+## 📦 Project Structure
+azure-rbac-configuration/
+├── bicep/
+│ └── rbac-role-assignment.bicep # Bicep template for RBAC configuration
+├── images/
+│ ├── rbac-diagram.png # Architecture diagram
+│ └── .gitkeep # Placeholder to keep the folder in Git
+├── scripts/
+│ └── assign-role.ps1 # PowerShell script to deploy the Bicep template
+├── .gitignore
+├── LICENSE
+└── README.md
