@@ -67,3 +67,9 @@ azure-rbac-configuration/
 - Assigns built-in roles (e.g., Reader, Contributor) to users or service principals
 - Enforces **least privilege** principle in real-world Azure environments
 
+---
+
+## How to Deploy
+
+> ⚠️ **Note**: This project was developed and tested using **Microsoft-provided Azure sandbox environments** through [Microsoft Learn On Demand](https://msle.learnondemand.net), as part of the **AZ-500 Microsoft Azure Security Technologies** course.  
+> If you're using a personal Azure subscription, make sure you have permissions to assign roles and deploy resources.
