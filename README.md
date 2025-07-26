@@ -1,4 +1,5 @@
 # Azure RBAC Role Assignment with Bicep
+
 This project demonstrates how to automate **Azure Role-Based Access Control (RBAC)** assignments using **Bicep**, Azure’s native infrastructure-as-code (IaC) language. It provisions precise access permissions for users or service principals across Azure scopes (subscription, resource group, or individual resources).
 
 The goal is to apply **security best practices** such as **least privilege** and **declarative access control**—concepts critical to both real-world cloud security and the **AZ-500: Microsoft Azure Security Technologies** certification.
@@ -6,6 +7,7 @@ The goal is to apply **security best practices** such as **least privilege** and
 ---
 
 ## Why it matters
+
 Manually assigning roles in the Azure Portal is error-prone and not scalable. This project shows how to:
 - Replace manual steps with **version-controlled**, repeatable infrastructure
 - Enforce secure access using **parameterized Bicep templates**
@@ -13,6 +15,7 @@ Manually assigning roles in the Azure Portal is error-prone and not scalable. Th
 
 ---
 ## Technologies used
+
 - **Bicep** – Azure’s DSL for deploying infrastructure as code
 - **Azure Role-Based Access Control (RBAC)** – Built-in access control system
 - **Azure Active Directory (AAD)** – Identity platform for assigning roles
@@ -22,12 +25,14 @@ Manually assigning roles in the Azure Portal is error-prone and not scalable. Th
 ---
 
 ## Key security concepts covered
+
 - **Least privilege access**  
 - **Scoping RBAC correctly (subscription, RG, resource)**  
 - **Infrastructure as Code (IaC) for access control**  
 - **Declarative IAM policy management**
 
 ## Who is this for
+
 This is ideal for:
 - **Cloud Security Engineers** learning automation
 - **DevSecOps professionals** enforcing policy-as-code
@@ -40,6 +45,7 @@ This is ideal for:
 ---
 
 ## 📦 Project Structure
+
 azure-rbac-configuration/
 ├── bicep/
 │ └── rbac-role-assignment.bicep # Bicep template for RBAC configuration
@@ -51,3 +57,13 @@ azure-rbac-configuration/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+
+---
+
+## What This Üroject Does
+
+- Automates **Azure RBAC role assignments** using Bicep
+- Demonstrates use of **Infrastructure as Code (IaC)** for secure Azure resource access
+- Assigns built-in roles (e.g., Reader, Contributor) to users or service principals
+- Enforces **least privilege** principle in real-world Azure environments
+
